@@ -1,0 +1,17 @@
+
+<h1>Dragon Ball z</h1>
+<hr>
+
+<div class="row">
+    
+    <div class="col">
+        <app-personajes ></app-personajes>
+    </div>
+
+    <div class="col">
+        <app-agregar 
+            [nuevo]="nuevo"></app-agregar>
+    </div>
+    <!-- con (onNuevoPersonaje)="agregarNuevoPersonaje( $event )", se escucha el stream o emitter, además de que se escucha el valor que regresa y se ejecuta una función con el mismo valor de retorno. -->
+
+</div>
